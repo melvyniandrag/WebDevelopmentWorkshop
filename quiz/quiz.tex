@@ -1,0 +1,94 @@
+%description: Math 290 HW Template
+\documentclass[10pt]{article}  %What kind of document (article) and what size
+
+%Packages to load which give you useful commands
+\usepackage{graphicx}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{titlesec}
+\usepackage{titling}
+%Sets the margins
+
+\textwidth = 7 in
+\textheight = 9.5 in
+\oddsidemargin = -0.3 in
+\evensidemargin = -0.3 in
+\topmargin = -0.4 in
+\headheight = 0.0 in
+\headsep = 0.0 in
+
+\setlength{\droptitle}{-1cm}  % Adjust this value to move the title up/down
+
+
+\renewcommand{\abstractname}{Overview}
+\titlespacing{\section}{0pt}{0.1cm}{0.1cm}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\small\bfseries}{\thesubsubsection}{1em}{}
+
+\title{What is a Website and How is it Deployed?}
+\author{Test Your Learning}
+\date{Fall 2024}
+\renewcommand{\maketitle}{
+    \begin{center}
+        {\LARGE \textbf{\thetitle}}\\[12pt] % Title with no space below
+        {\large \theauthor}\\[12pt] % Author with no space below
+    \end{center}
+}
+
+\newcommand{\question}[1]{
+\section{#1}
+\fbox{\makebox[0.95\linewidth]{\rule{0pt}{0.5in}}}
+
+}
+\begin{document}
+
+\maketitle
+\begin{abstract}
+    In this workshop we will learn everything about websites from some basic HTML to running a massively scalable website on a Linux cluster. Take this exam before the workshop and at the end to see how much you've learned.
+\end{abstract}
+
+\question{What language is used for the content of a webpage?}
+\question{What language is used for the style of a webpage?}
+\question{What language is used for adding things like button clicks to a webpage?}
+\question{What is a browser?}
+\question{Name 5 popular browsers}
+\question{What is a static website?}
+\question{Name 2 popular tools for making static websites}
+\question{What is a dynamic website?}
+\question{What is an SQL database?}
+\question{What is SQL?}
+\question{Name 3 SQL databases}
+\question{Is sqlite3 a popular database? Why?}
+\question{What is a NoSQL database?}
+\question{Name 2 NoSQL databases}
+\question{What is an IP address?}
+\question{What is a LAN?}
+\question{What is the internet?}
+\question{What is a webserver(hardware)?}
+\question{What is a webserver(software)?}
+\question{Name the two most popular webserver softwares}
+\question{What is a backend web framework?}
+\question{Name 4 languages you could use to make a backend?}
+\question{Name 2 popular Python backend frameworks}
+\question{Name a popular C\# backend framework}
+\question{Name a popular Kotlin backend framework}
+\question{Name a popular Java backend framework}
+\question{What is a single page application?}
+\question{What is a frontend framework?}
+\question{What language is used to make frontend frameworks?}
+\question{Name 3 popular front end frameworks}
+\question{What is a REST API?}
+\question{What does REST stand for?}
+\question{What does API stand for?}
+\question{What is JSON?}
+\question{What is containerization?}
+\question{What is a virtual machine?}
+\question{What is Docker?}
+\question{What are some reason(s) Docker is better than a VM?}
+\question{What are some reason(s) Docker is worse than a VM?}
+\question{Is Linux a great operating system for running websites?}
+\question{What is a reverse proxy?}
+\question{What is Kubernetes?}
+
+
+ \end{document}

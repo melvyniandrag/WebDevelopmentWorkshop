@@ -1,0 +1,11 @@
+0830-0900 Meet & Greet & Coffee
+0900-0930 HTML/CSS/Javascript
+0945-1015 Connect to Linux server
+1030-1100 Deploy to Apache2
+1100-1145 Dynamic Python site * Django
+1145-1200 Deploy django on Apache2
+1200-1230 Lunch intermission
+1230-0100 Connect to PostgreSQL DB
+0100-0130 Configure domain name
+0130-0200 Package site w/ Docker
+0200-0230 NGINX Reverse Proxy

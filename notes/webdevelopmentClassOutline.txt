@@ -1,0 +1,49 @@
+How To Make Websites
+Class outline
+HTML
+CSS
+Javascript
+Static Site
+Getting the website on a LAN
+Getting Website On the Internet
+Get a domain name
+
+Dynamic sites
+Django
+
+Database
+Django + database example
+
+Run website with Django + React
+https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react
+
+Return to Django example
+Difficult to package!
+Use Docker
+Difficult to scale!
+Use Kubernetes
+
+blank worksheet:
+1. What language is used to specify the layout of a webpage?
+2. What language is used to specify the design of a webpage?
+3. What is a browser?
+4. What are some popular browsers?
+5. What language is used to add functionality to a webpage (in the browser)
+6. What is a static webpage?
+7. What is a database?
+8. What are some popular databases?
+9. What is a LAN?
+10. What is an IP address?
+11. What is a webserver?
+12. What are some popular webservers?
+13. What is a backend web framework?
+14. What are some popular backend web frameworks?
+15. What programming languages are used for backend web frameworks?
+16. What is a dynamic website?
+17. What are some popular front end frameworks?
+18. What is containerization?
+19. What is a popular tool for containerizing web applications?
+20 . What is a front end webframework?
+21. What are some popular front end webframeworks?
+22. Is Linux a good server operating system for running a webserver?
+23. What is a reverse proxy?
